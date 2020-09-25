@@ -1,19 +1,22 @@
 import LinkFromNext from 'next/link'
+import { ReactChild, ReactElement } from 'react'
 
 type LinkProps = {
-  children: React.ReactChild
+  children: ReactChild
   href: string
+  variant: 'link' | 'button'
   onClick?: () => void
 }
 
 export default function Link({
   children,
   href,
+  variant,
   onClick,
-}: LinkProps): React.ReactElement {
+}: LinkProps): ReactElement {
   return (
     <LinkFromNext href={href}>
-      {onClick ? (
+      {variant === 'button' ? (
         <button type="button" onClick={onClick}>
           {children}
         </button>

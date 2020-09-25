@@ -1,4 +1,10 @@
-import { createContext, useContext, useReducer } from 'react'
+import {
+  createContext,
+  ReactElement,
+  ReactNode,
+  useContext,
+  useReducer,
+} from 'react'
 
 import { TrackingContextReturn } from './tracking-context.types'
 import trackingContextReducer from './trackingContextReducer'
@@ -10,11 +16,11 @@ const TrackingContext = createContext<TrackingContextReturn>([
 ])
 
 type TrackingProviderProps = {
-  children: React.ReactNode
+  children: ReactNode
 }
 export function TrackingContextProvider({
   children,
-}: TrackingProviderProps): React.ReactElement {
+}: TrackingProviderProps): ReactElement {
   const reducer = useReducer(trackingContextReducer, getInititalState())
 
   return (

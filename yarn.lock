@@ -1517,6 +1517,18 @@
     "@typescript-eslint/types" "4.2.0"
     eslint-visitor-keys "^2.0.0"
 
+"@valtech-ch/eslint-config-base@^1.0.0":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@valtech-ch/eslint-config-base/-/eslint-config-base-0.0.2.tgz#0565e5e0605bdb433ab5b46738fc52ff6a6bfba0"
+  integrity sha512-OB1fcDylsdtPL/X/PxxGUEXth2ZjtHaOBz8zY9yH6FzZntr34ZKA1yxpJ8EXMLXPVwd+/LQIE8yoC1S/QVUZEA==
+
+"@valtech-ch/eslint-config-react@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@valtech-ch/eslint-config-react/-/eslint-config-react-0.0.2.tgz#ba3aead5a0d055131029ff7638e5fd430f67f02e"
+  integrity sha512-8cleCZ01tvZoGWmKXid8fSXTwJmEY3GU3/kS4/Rw12NlUfkekf+t+l8lGEx5wfPaJQW9r0DtvZ+kxlCrscaKbw==
+  dependencies:
+    "@valtech-ch/eslint-config-base" "^1.0.0"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
