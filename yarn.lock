@@ -1517,17 +1517,17 @@
     "@typescript-eslint/types" "4.2.0"
     eslint-visitor-keys "^2.0.0"
 
-"@valtech-ch/eslint-config-base@^1.0.0":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@valtech-ch/eslint-config-base/-/eslint-config-base-0.0.2.tgz#0565e5e0605bdb433ab5b46738fc52ff6a6bfba0"
-  integrity sha512-OB1fcDylsdtPL/X/PxxGUEXth2ZjtHaOBz8zY9yH6FzZntr34ZKA1yxpJ8EXMLXPVwd+/LQIE8yoC1S/QVUZEA==
+"@valtech-ch/eslint-config-base@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@valtech-ch/eslint-config-base/-/eslint-config-base-0.0.3.tgz#c20827df0515720e3308737da1e9fe0f062469e6"
+  integrity sha512-THIavU8MtJyXFoovYU/hMdSMGkc+fMpvBTwwTj1cO+PTA6JxWctzCGXOakK+XyRMeHEE2yMlx06qP2j1Rtatvw==
 
-"@valtech-ch/eslint-config-react@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@valtech-ch/eslint-config-react/-/eslint-config-react-0.0.2.tgz#ba3aead5a0d055131029ff7638e5fd430f67f02e"
-  integrity sha512-8cleCZ01tvZoGWmKXid8fSXTwJmEY3GU3/kS4/Rw12NlUfkekf+t+l8lGEx5wfPaJQW9r0DtvZ+kxlCrscaKbw==
+"@valtech-ch/eslint-config-react@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@valtech-ch/eslint-config-react/-/eslint-config-react-0.0.4.tgz#49141a5bfc38c831b1c80fa84e9860789f739d99"
+  integrity sha512-Ps+ePJ90g+z2u0e+FmA8+5b44q77WeuKXwNJLMm5RaTKIMWV3yDB3ib0tRxyQ340Bstr5HcQbzMPaEGI8Am+eA==
   dependencies:
-    "@valtech-ch/eslint-config-base" "^1.0.0"
+    "@valtech-ch/eslint-config-base" "^0.0.3"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
