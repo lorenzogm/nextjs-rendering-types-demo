@@ -5,6 +5,9 @@ const cellGreen = {
   backgroundColor: 'green',
   color: 'white',
 }
+const cellYellow = {
+  backgroundColor: 'yellow',
+}
 const cellRed = {
   backgroundColor: 'red',
   color: 'white',
@@ -17,7 +20,11 @@ export default function DemoSummary(): ReactElement {
     <>
       <h1>Summary</h1>
 
-      <p>Those are the result from the previous tests:</p>
+      <p>
+        The table below summarize the behaviour that we saw during the demo,
+        together with other relevant topics to know the main differences between
+        the 3 types of rendering:
+      </p>
 
       <table>
         <thead>
@@ -56,13 +63,47 @@ export default function DemoSummary(): ReactElement {
             <td style={cellGreen}>Yes</td>
             <td style={cellRed}>No</td>
           </tr>
+
+          <tr>
+            <td>SEO</td>
+            <td style={cellRed}>Bad</td>
+            <td style={cellYellow}>Good</td>
+            <td style={cellGreen}>Great</td>
+          </tr>
+
+          <tr>
+            <td>Server costs</td>
+            <td style={cellGreen}>Low</td>
+            <td style={cellRed}>High</td>
+            <td style={cellGreen}>Low</td>
+          </tr>
+
+          <tr>
+            <td>Complexity</td>
+            <td style={cellGreen}>Easy</td>
+            <td style={cellYellow}>Medium</td>
+            <td style={cellYellow}>Medium</td>
+          </tr>
+
+          <tr>
+            <td>Benefits regarding security?</td>
+            <td style={cellRed}>No</td>
+            <td style={cellRed}>No</td>
+            <td style={cellGreen}>Yes</td>
+          </tr>
+
+          <tr>
+            <td>Is possible to use a CDN?</td>
+            <td style={cellGreen}>Yes</td>
+            <td style={cellRed}>No</td>
+            <td style={cellGreen}>Yes</td>
+          </tr>
         </tbody>
       </table>
 
-      <h2>Conclusions</h2>
       <p>
-        The list below include conclusions from the current demo, but also other
-        topics which are relevant to decide which technology should be used.
+        The information provided in the table, it&apos;s extended with further
+        information below:
       </p>
 
       <h3>Client-Side Rendering</h3>
@@ -137,7 +178,7 @@ export default function DemoSummary(): ReactElement {
         <li>Server costs: A server is not needed to render the pages.</li>
         <li>
           Deployment: there are several platform that deploy the code directly
-          from the git repository, which makas it easy to deploy.
+          from the git repository, which makes it easy to deploy.
         </li>
         <li>
           Security: with static files, the risk to been vulnerable to cyber
