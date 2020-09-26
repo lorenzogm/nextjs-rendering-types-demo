@@ -24,6 +24,7 @@
     "@typescript-eslint/parser": "^4.2.0",
     "@valtech-ch/eslint-config-react": "^0.0.4",
     "eslint": "^7.9.0",
+    "eslint-config-airbnb-typescript": "^10.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.0",
