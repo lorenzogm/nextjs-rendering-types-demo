@@ -113,7 +113,9 @@ export default function DemoSSGTemplate({
 
           <hr />
 
-          <Link href="summary">Go to next step</Link>
+          <Link variant="link" href="/summary">
+            Go to next step
+          </Link>
         </>
       )}
     </>

@@ -112,7 +112,9 @@ export default function DemoSSRTemplate({
 
           <hr />
 
-          <Link href="/demo/ssg-online-enabled-1">Go to next step</Link>
+          <Link variant="link" href="/demo/ssg-online-enabled-1">
+            Go to next step
+          </Link>
         </>
       )}
     </>

@@ -54,6 +54,7 @@ export default function HomeTemplate(): ReactElement {
       <hr />
 
       <Link
+        variant="button"
         href="/demo/csr-online-enabled-1"
         onClick={() => dispatch({ type: TrackingContextActions.RESET })}
       >

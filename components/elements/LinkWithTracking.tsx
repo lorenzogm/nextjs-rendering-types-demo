@@ -21,6 +21,7 @@ export default function LinkWithTracking({
 }: LinkWithTrackingProps): ReactElement {
   return (
     <Link
+      variant="button"
       href={`/demo/${pageType.toLowerCase()}-online-enabled-${
         pageNumber === 1 ? 2 : 1
       }`}

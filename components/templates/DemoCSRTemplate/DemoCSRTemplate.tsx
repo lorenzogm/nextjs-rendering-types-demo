@@ -138,7 +138,9 @@ export default function DemoCSRTemplate({
           {link}
 
           <hr />
-          <Link href="/demo/ssr-online-enabled-1">Go to next step</Link>
+          <Link variant="link" href="/demo/ssr-online-enabled-1">
+            Go to next step
+          </Link>
         </>
       )}
     </>
