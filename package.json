@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@types/faker": "^5.1.0",
+    "@types/gtag.js": "^0.0.3",
     "deepmerge": "^4.2.2",
     "faker": "^5.1.0",
     "lodash.get": "^4.4.2",

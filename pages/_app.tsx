@@ -1,12 +1,15 @@
 import type { AppProps } from 'next/app'
+import { ReactElement } from 'react'
 
 import LayoutTemplate from 'components/templates/LayoutTemplate/LayoutTemplate'
-import { ReactElement } from 'react'
+import { useGtagHandlerouteChange } from 'services/gtag'
 
 export default function MyApp({
   Component,
   pageProps,
 }: AppProps): ReactElement {
+  useGtagHandlerouteChange()
+
   return (
     <LayoutTemplate>
       <Component
